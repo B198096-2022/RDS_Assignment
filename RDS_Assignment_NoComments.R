@@ -10,13 +10,13 @@ sample_annotation <- read.table(file= "sample_annotation.csv",header=T,sep=",")
 
 data_all_df <- as.data.frame(data_all[1:200, 2:13])
 
-zero_test <- function(df) {
+zero_test <- function(df, find=0) {
   all_data_matrix <- as.matrix(df)
   count <- 0
   zero_positions <- c()
   for (i in all_data_matrix){
     count = count + 1
-    if (i == 0){
+    if (i == find){
       print("Zero value found at position:")
       print(count)
       zero_positions <- c(zero_positions, count)
