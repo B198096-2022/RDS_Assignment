@@ -28,11 +28,14 @@ cp /shared_files/RDS_assignment_files/s2249132_files.zip . \
 unzip s2249132_files.zip \
 
 
-To execute this pipeline all necessary files are already include in
-the zipped folder with this script
 
+All code, both with and without comments, can be accessed here: \
+https://github.com/B198096-2022/RDS_Assignment \
+ 
+\
+To copy the code to your working directory from a terminal enter: \
+git clone https://github.com/B198096-2022/RDS_Assignment \
 
-All code, both with and without comments, can be accessed here:
 
 
 ##Formatting The Data \
